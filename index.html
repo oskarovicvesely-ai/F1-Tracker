@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F1 Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand-wrap">
+          <div class="brand-badge">F1</div>
+          <div>
+            <p class="eyebrow">Formula 1</p>
+            <h1>Tracker</h1>
+          </div>
+        </div>
+        <div class="topbar-actions">
+          <div class="season-pill" id="season-pill">Načítám sezónu...</div>
+          <a class="calendar-link" href="https://ics.ecal.com/ecal-sub/6955b7c2c71b490002731b8a/Formula%201.ics" target="_blank" rel="noreferrer">
+            Odebírat kalendář
+          </a>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow accent">Live přehled</p>
+            <h2>Kalendář, jezdeců i týmů</h2>
+            <p class="lead">
+              Sleduj aktuální F1 sezónu, závody a tabulky pilotů i konstruktorů v jednom místě.
+            </p>
+          </div>
+
+          <div class="summary-grid">
+            <article class="summary-card">
+              <span class="label">Aktuální kolo</span>
+              <strong id="current-round">—</strong>
+            </article>
+            <article class="summary-card">
+              <span class="label">Příští závod</span>
+              <strong id="next-race">—</strong>
+            </article>
+            <article class="summary-card">
+              <span class="label">Vedení</span>
+              <strong id="leader-driver">—</strong>
+            </article>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-header">
+            <h3>Kalendář</h3>
+          </div>
+          <div id="race-calendar" class="race-list"></div>
+        </section>
+
+        <section class="panel archive-panel">
+          <details class="archive-details" open>
+            <summary class="panel-header archive-summary">
+              <h3>Už odjeté závody</h3>
+              <span class="archive-toggle" aria-hidden="true"></span>
+            </summary>
+            <div id="completed-races" class="mini-race-list" aria-live="polite"></div>
+          </details>
+        </section>
+
+        <section class="standings-grid">
+          <div class="panel">
+            <div class="panel-header">
+              <h3>Pořadí jezdců</h3>
+            </div>
+            <div class="table-wrap table-scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Jezdec</th>
+                    <th>Tým</th>
+                    <th>Body</th>
+                  </tr>
+                </thead>
+                <tbody id="driver-standings"></tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-header">
+              <h3>Pořadí týmů</h3>
+            </div>
+            <div class="table-wrap table-scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Tým</th>
+                    <th>Body</th>
+                  </tr>
+                </thead>
+                <tbody id="constructor-standings"></tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

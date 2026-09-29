@@ -257,4 +257,3 @@ if __name__ == '__main__':
     httpd = ThreadingHTTPServer(('0.0.0.0', port), Handler)
     print(f'Serving F1 Tracker on http://localhost:{port}')
     httpd.serve_forever()
-

@@ -137,7 +137,17 @@ function findNextRace(races) {
 }
 
 async function fetchF1Data() {
-  const candidates = ['data/f1-data.json', '/api/f1-data'];
+  if (window.location.protocol === 'file:') {
+    throw new Error('Open the page through a web server, not as a local file. Use http://localhost:8000 or the GitHub Pages URL.');
+  }
+
+  const candidates = [
+    './data/f1-data.json',
+    'data/f1-data.json',
+    './api/f1-data',
+    '/api/f1-data',
+  ];
+
   let lastError = null;
 
   for (const url of candidates) {
@@ -185,4 +195,3 @@ async function loadF1Data() {
 }
 
 loadF1Data();
-

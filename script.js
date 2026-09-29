@@ -136,14 +136,29 @@ function findNextRace(races) {
   return upcoming || races[races.length - 1];
 }
 
+async function fetchF1Data() {
+  const candidates = ['data/f1-data.json', '/api/f1-data'];
+  let lastError = null;
+
+  for (const url of candidates) {
+    try {
+      const response = await fetch(url, { cache: 'no-store' });
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+
+      return await response.json();
+    } catch (error) {
+      lastError = error;
+    }
+  }
+
+  throw lastError || new Error('F1 data unavailable');
+}
+
 async function loadF1Data() {
   try {
-    const response = await fetch('/api/f1-data', { cache: 'no-store' });
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}`);
-    }
-
-    const data = await response.json();
+    const data = await fetchF1Data();
     const { season, races, driverStandings, constructorStandings } = data;
     const nextRace = findNextRace(races);
     const nextRaceName = nextRace.location || nextRace.name;

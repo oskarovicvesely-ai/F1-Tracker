@@ -1,0 +1,6 @@
+.git/
+.github/
+scripts/
+server.py
+wrangler.jsonc
+.assetsignore

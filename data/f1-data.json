@@ -139,6 +139,14 @@
       "location": "United States",
       "time": "12:00:00Z",
       "slug": "united-states"
+    },
+    {
+      "round": 18,
+      "date": "2026-11-06",
+      "name": "Brazil",
+      "location": "Brazil",
+      "time": "12:00:00Z",
+      "slug": "brazil"
     }
   ],
   "driverStandings": [
@@ -147,63 +155,63 @@
       "givenName": "Kimi",
       "familyName": "Antonelli",
       "team": "Mercedes",
-      "points": 325
+      "points": 340
     },
     {
       "position": 2,
       "givenName": "George",
       "familyName": "Russell",
       "team": "Mercedes",
-      "points": 236
+      "points": 238
     },
     {
       "position": 3,
       "givenName": "Lewis",
       "familyName": "Hamilton",
       "team": "Ferrari",
-      "points": 221
+      "points": 229
     },
     {
       "position": 4,
-      "givenName": "Charles",
-      "familyName": "Leclerc",
-      "team": "Ferrari",
-      "points": 197
-    },
-    {
-      "position": 5,
       "givenName": "Max",
       "familyName": "Verstappen",
       "team": "Red Bull Racing",
-      "points": 196
+      "points": 221
+    },
+    {
+      "position": 5,
+      "givenName": "Charles",
+      "familyName": "Leclerc",
+      "team": "Ferrari",
+      "points": 215
     },
     {
       "position": 6,
       "givenName": "Lando",
       "familyName": "Norris",
       "team": "McLaren",
-      "points": 189
+      "points": 201
     },
     {
       "position": 7,
       "givenName": "Oscar",
       "familyName": "Piastri",
       "team": "McLaren",
-      "points": 128
+      "points": 138
     },
     {
       "position": 8,
       "givenName": "Isack",
       "familyName": "Hadjar",
       "team": "Red Bull Racing",
-      "points": 96
+      "points": 97
     },
     {
       "position": 9,
       "givenName": "Liam",
       "familyName": "Lawson",
       "team": "Racing Bulls",
-      "points": 69
+      "points": 75
     },
     {
       "position": 10,
@@ -235,17 +243,17 @@
     },
     {
       "position": 14,
+      "givenName": "Nico",
+      "familyName": "Hulkenberg",
+      "team": "Audi",
+      "points": 13
+    },
+    {
+      "position": 15,
       "givenName": "Gabriel",
       "familyName": "Bortoleto",
       "team": "Audi",
       "points": 10
-    },
-    {
-      "position": 15,
-      "givenName": "Nico",
-      "familyName": "Hulkenberg",
-      "team": "Audi",
-      "points": 9
     },
     {
       "position": 16,
@@ -301,27 +309,27 @@
     {
       "position": 1,
       "name": "Mercedes",
-      "points": 561
+      "points": 578
     },
     {
       "position": 2,
       "name": "Ferrari",
-      "points": 418
+      "points": 444
     },
     {
       "position": 3,
       "name": "McLaren",
-      "points": 317
+      "points": 339
     },
     {
       "position": 4,
       "name": "Red Bull Racing",
-      "points": 306
+      "points": 332
     },
     {
       "position": 5,
       "name": "Racing Bulls",
-      "points": 94
+      "points": 100
     },
     {
       "position": 6,
@@ -336,7 +344,7 @@
     {
       "position": 8,
       "name": "Audi",
-      "points": 19
+      "points": 23
     },
     {
       "position": 9,

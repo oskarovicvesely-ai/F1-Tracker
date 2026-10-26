@@ -147,6 +147,14 @@
       "location": "Brazil",
       "time": "12:00:00Z",
       "slug": "brazil"
+    },
+    {
+      "round": 19,
+      "date": "2026-11-19",
+      "name": "Las Vegas",
+      "location": "Las Vegas",
+      "time": "12:00:00Z",
+      "slug": "las-vegas"
     }
   ],
   "driverStandings": [
@@ -155,70 +163,70 @@
       "givenName": "Kimi",
       "familyName": "Antonelli",
       "team": "Mercedes",
-      "points": 340
+      "points": 365
     },
     {
       "position": 2,
       "givenName": "George",
       "familyName": "Russell",
       "team": "Mercedes",
-      "points": 238
+      "points": 242
     },
     {
       "position": 3,
       "givenName": "Lewis",
       "familyName": "Hamilton",
       "team": "Ferrari",
-      "points": 229
+      "points": 241
     },
     {
       "position": 4,
       "givenName": "Max",
       "familyName": "Verstappen",
       "team": "Red Bull Racing",
-      "points": 221
+      "points": 236
     },
     {
       "position": 5,
       "givenName": "Charles",
       "familyName": "Leclerc",
       "team": "Ferrari",
-      "points": 215
+      "points": 233
     },
     {
       "position": 6,
       "givenName": "Lando",
       "familyName": "Norris",
       "team": "McLaren",
-      "points": 201
+      "points": 211
     },
     {
       "position": 7,
       "givenName": "Oscar",
       "familyName": "Piastri",
       "team": "McLaren",
-      "points": 138
+      "points": 144
     },
     {
       "position": 8,
       "givenName": "Isack",
       "familyName": "Hadjar",
       "team": "Red Bull Racing",
-      "points": 97
+      "points": 105
     },
     {
       "position": 9,
       "givenName": "Liam",
       "familyName": "Lawson",
       "team": "Racing Bulls",
-      "points": 75
+      "points": 77
     },
     {
       "position": 10,
       "givenName": "Pierre",
       "familyName": "Gasly",
       "team": "Alpine",
-      "points": 41
+      "points": 42
     },
     {
       "position": 11,
@@ -309,32 +317,32 @@
     {
       "position": 1,
       "name": "Mercedes",
-      "points": 578
+      "points": 607
     },
     {
       "position": 2,
       "name": "Ferrari",
-      "points": 444
+      "points": 474
     },
     {
       "position": 3,
-      "name": "McLaren",
-      "points": 339
+      "name": "Red Bull Racing",
+      "points": 355
     },
     {
       "position": 4,
-      "name": "Red Bull Racing",
-      "points": 332
+      "name": "McLaren",
+      "points": 355
     },
     {
       "position": 5,
       "name": "Racing Bulls",
-      "points": 100
+      "points": 102
     },
     {
       "position": 6,
       "name": "Alpine",
-      "points": 68
+      "points": 69
     },
     {
       "position": 7,

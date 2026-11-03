@@ -171,42 +171,42 @@
       "givenName": "Kimi",
       "familyName": "Antonelli",
       "team": "Mercedes",
-      "points": 365
+      "points": 380
     },
     {
       "position": 2,
-      "givenName": "George",
-      "familyName": "Russell",
-      "team": "Mercedes",
-      "points": 242
+      "givenName": "Max",
+      "familyName": "Verstappen",
+      "team": "Red Bull Racing",
+      "points": 261
     },
     {
       "position": 3,
       "givenName": "Lewis",
       "familyName": "Hamilton",
       "team": "Ferrari",
-      "points": 241
+      "points": 259
     },
     {
       "position": 4,
-      "givenName": "Max",
-      "familyName": "Verstappen",
-      "team": "Red Bull Racing",
-      "points": 236
+      "givenName": "George",
+      "familyName": "Russell",
+      "team": "Mercedes",
+      "points": 250
     },
     {
       "position": 5,
       "givenName": "Charles",
       "familyName": "Leclerc",
       "team": "Ferrari",
-      "points": 233
+      "points": 245
     },
     {
       "position": 6,
       "givenName": "Lando",
       "familyName": "Norris",
       "team": "McLaren",
-      "points": 211
+      "points": 221
     },
     {
       "position": 7,
@@ -220,14 +220,14 @@
       "givenName": "Isack",
       "familyName": "Hadjar",
       "team": "Red Bull Racing",
-      "points": 105
+      "points": 107
     },
     {
       "position": 9,
       "givenName": "Liam",
       "familyName": "Lawson",
       "team": "Racing Bulls",
-      "points": 77
+      "points": 83
     },
     {
       "position": 10,
@@ -259,17 +259,17 @@
     },
     {
       "position": 14,
+      "givenName": "Gabriel",
+      "familyName": "Bortoleto",
+      "team": "Audi",
+      "points": 14
+    },
+    {
+      "position": 15,
       "givenName": "Nico",
       "familyName": "Hulkenberg",
       "team": "Audi",
       "points": 13
-    },
-    {
-      "position": 15,
-      "givenName": "Gabriel",
-      "familyName": "Bortoleto",
-      "team": "Audi",
-      "points": 10
     },
     {
       "position": 16,
@@ -308,16 +308,16 @@
     },
     {
       "position": 21,
-      "givenName": "Lance",
-      "familyName": "Stroll",
-      "team": "Aston Martin",
-      "points": 0
+      "givenName": "Ryo",
+      "familyName": "Hirakawa",
+      "team": "Haas F1 Team",
+      "points": 1
     },
     {
       "position": 22,
-      "givenName": "Valtteri",
-      "familyName": "Bottas",
-      "team": "Cadillac",
+      "givenName": "Lance",
+      "familyName": "Stroll",
+      "team": "Aston Martin",
       "points": 0
     }
   ],
@@ -325,27 +325,27 @@
     {
       "position": 1,
       "name": "Mercedes",
-      "points": 607
+      "points": 630
     },
     {
       "position": 2,
       "name": "Ferrari",
-      "points": 474
+      "points": 504
     },
     {
       "position": 3,
       "name": "Red Bull Racing",
-      "points": 355
+      "points": 382
     },
     {
       "position": 4,
       "name": "McLaren",
-      "points": 355
+      "points": 365
     },
     {
       "position": 5,
       "name": "Racing Bulls",
-      "points": 102
+      "points": 108
     },
     {
       "position": 6,
@@ -355,12 +355,12 @@
     {
       "position": 7,
       "name": "Haas F1 Team",
-      "points": 30
+      "points": 31
     },
     {
       "position": 8,
       "name": "Audi",
-      "points": 23
+      "points": 27
     },
     {
       "position": 9,

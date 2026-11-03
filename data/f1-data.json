@@ -155,6 +155,14 @@
       "location": "Las Vegas",
       "time": "12:00:00Z",
       "slug": "las-vegas"
+    },
+    {
+      "round": 20,
+      "date": "2026-11-27",
+      "name": "Qatar",
+      "location": "Qatar",
+      "time": "12:00:00Z",
+      "slug": "qatar"
     }
   ],
   "driverStandings": [

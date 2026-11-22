@@ -179,49 +179,49 @@
       "givenName": "Kimi",
       "familyName": "Antonelli",
       "team": "Mercedes",
-      "points": 390
+      "points": 402
     },
     {
       "position": 2,
       "givenName": "Max",
       "familyName": "Verstappen",
       "team": "Red Bull Racing",
-      "points": 279
+      "points": 304
     },
     {
       "position": 3,
-      "givenName": "George",
-      "familyName": "Russell",
-      "team": "Mercedes",
-      "points": 262
-    },
-    {
-      "position": 4,
       "givenName": "Lewis",
       "familyName": "Hamilton",
       "team": "Ferrari",
-      "points": 261
+      "points": 267
+    },
+    {
+      "position": 4,
+      "givenName": "George",
+      "familyName": "Russell",
+      "team": "Mercedes",
+      "points": 264
     },
     {
       "position": 5,
-      "givenName": "Charles",
-      "familyName": "Leclerc",
-      "team": "Ferrari",
-      "points": 249
-    },
-    {
-      "position": 6,
       "givenName": "Lando",
       "familyName": "Norris",
       "team": "McLaren",
-      "points": 246
+      "points": 264
+    },
+    {
+      "position": 6,
+      "givenName": "Charles",
+      "familyName": "Leclerc",
+      "team": "Ferrari",
+      "points": 250
     },
     {
       "position": 7,
       "givenName": "Oscar",
       "familyName": "Piastri",
       "team": "McLaren",
-      "points": 152
+      "points": 167
     },
     {
       "position": 8,
@@ -242,7 +242,7 @@
       "givenName": "Pierre",
       "familyName": "Gasly",
       "team": "Alpine",
-      "points": 42
+      "points": 52
     },
     {
       "position": 11,
@@ -256,7 +256,7 @@
       "givenName": "Franco",
       "familyName": "Colapinto",
       "team": "Alpine",
-      "points": 27
+      "points": 35
     },
     {
       "position": 13,
@@ -281,23 +281,23 @@
     },
     {
       "position": 16,
+      "givenName": "Carlos",
+      "familyName": "Sainz",
+      "team": "Williams",
+      "points": 11
+    },
+    {
+      "position": 17,
       "givenName": "Esteban",
       "familyName": "Ocon",
       "team": "Haas F1 Team",
       "points": 7
     },
     {
-      "position": 17,
+      "position": 18,
       "givenName": "Fernando",
       "familyName": "Alonso",
       "team": "Aston Martin",
-      "points": 7
-    },
-    {
-      "position": 18,
-      "givenName": "Carlos",
-      "familyName": "Sainz",
-      "team": "Williams",
       "points": 7
     },
     {
@@ -333,22 +333,22 @@
     {
       "position": 1,
       "name": "Mercedes",
-      "points": 652
+      "points": 666
     },
     {
       "position": 2,
       "name": "Ferrari",
-      "points": 510
+      "points": 517
     },
     {
       "position": 3,
       "name": "Red Bull Racing",
-      "points": 415
+      "points": 440
     },
     {
       "position": 4,
       "name": "McLaren",
-      "points": 398
+      "points": 431
     },
     {
       "position": 5,
@@ -358,7 +358,7 @@
     {
       "position": 6,
       "name": "Alpine",
-      "points": 69
+      "points": 87
     },
     {
       "position": 7,
@@ -373,7 +373,7 @@
     {
       "position": 9,
       "name": "Williams",
-      "points": 12
+      "points": 16
     },
     {
       "position": 10,
